@@ -12,7 +12,7 @@ public class Builder : MonoBehaviour
             locationPathName = "/home/ubuntu/bap-test-webgl/",
             options = BuildOptions.None,
             target = BuildTarget.WebGL,
-            scenes = new[] { "Assets/SampleScene.unity" }
+            scenes = new[] { "Assets/Scenes/SampleScene.unity" }
         };
 
         BuildPipeline.BuildPlayer(optionsWebGL);
