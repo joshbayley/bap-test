@@ -42,8 +42,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Folder Include="Assets" />
+     <Folder Include="Assets/Mirror/Presets" />
+     <Folder Include="Assets/Mirror/Plugins" />
+     <None Include="Assets/Mirror/Readme.txt" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Mirror" />
+     <None Include="Assets/Mirror/Plugins/Mono.Cecil/License.txt" />
+     <Folder Include="Assets/Mirror/Presets/NetworkTransform" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/Mirror/Plugins/Mono.Cecil" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
